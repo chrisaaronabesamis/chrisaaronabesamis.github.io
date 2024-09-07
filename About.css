@@ -1,0 +1,218 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overflow: hidden; 
+  height: 100vh;    
+  width: 100vw;     
+}
+
+.main-container {
+  width: 360px; 
+  height: 800px;  
+  margin: auto; 
+  background: #1F3069;
+  position: relative; 
+}
+
+.rectangle {
+  position: relative;
+  width: 100%;
+  height: 32px;
+  background: #d9d9d9;
+  z-index: 14;
+}
+
+.rectangle a {
+  display: block;
+  position: absolute;
+  width: 20px;
+  height: 25px;
+  overflow: hidden;
+  z-index: 10;
+}
+
+.house {
+  top: 4px;
+  left: 238px;
+}
+
+.telephone {
+  top: 4px;
+  left: 320px;
+}
+
+.info {
+  top: 5px;
+  left: 267px;
+}
+
+.gear {
+  top: 5px;
+  left: 296px;
+}
+
+.vector, .vector-1, .vector-2, .vector-3 {
+  width: 100%;
+  height: 100%;
+  background-size: 100% 100%;
+}
+
+.vector {
+  background: url(https://res.cloudinary.com/dfuglnaz2/image/upload/v1724735564/house_krkhum.svg) no-repeat center;
+}
+
+.vector-1 {
+  background: url(https://res.cloudinary.com/dfuglnaz2/image/upload/v1724735739/telephone_mmumod.svg) no-repeat center;
+}
+
+.vector-2 {
+  background: url(https://res.cloudinary.com/dfuglnaz2/image/upload/v1724751361/info-circle_r2urvu.svg) no-repeat center;
+}
+
+.vector-3 {
+  background: url(https://res.cloudinary.com/dfuglnaz2/image/upload/v1724755292/person-fill-gear_nqjalw.svg) no-repeat center;
+}
+
+.about-me {
+  display: block;
+  position: relative;
+  height: 30px;
+  margin: 11px 0 0 14px;
+  color: #ffffff;
+  font-family: Titillium Web, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: left;
+  white-space: nowrap;
+}
+.aaron {
+  position: relative;
+  width: 136px;
+  height: 102px;
+  margin: 27px 0 0 8px;
+  background: url(https://res.cloudinary.com/dfuglnaz2/image/upload/v1724667127/SEL_9781-min_zbnnpm.jpg)
+    no-repeat center;
+  background-size: cover;
+  z-index: 12;
+  backdrop-filter: blur(2px);
+  border-radius: 85px;
+}
+.flex-row-c {
+  position: relative;
+  width: 345px;
+  height: 413px;
+  margin: 9px 0 0 14px;
+  z-index: 3;
+}
+.web-developer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 345px;
+  height: 413px;
+  top: 0;
+  left: 0;
+  color: #ffffff;
+  font-family: Titillium Web, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30.42px;
+  text-align: center;
+  z-index: 3;
+}
+.envelope-fill {
+  position: absolute;
+  width: 46px;
+  height: 34px;
+  top: 155px;
+  left: 193px;
+  z-index: 1;
+  overflow: hidden;
+}
+.telephone-fill {
+  position: absolute;
+  width: 46px;
+  height: 34px;
+  top: 155px;
+  left: 246px;
+  z-index: 2;
+  overflow: hidden;
+}
+
+
+@media screen and (min-width: 500px){
+  .main-container {
+    width: 1600px; 
+    margin: 0px;  
+  }
+
+  .rectangle{
+    width: 100%;
+    height: 50px;
+  }
+
+  .rectangle a {
+    width: 60px;
+    height: 40px;
+  }
+
+  .house{
+    top: 7px;
+    left: 1340px;
+  }
+
+  .telephone{
+    top: 7px;
+    left: 1470px;
+  }
+
+  .info{
+    top: 7px;
+    left: 1390px;
+  }
+
+  .gear{
+    top: 7px;
+    left: 1430px;
+  }
+
+  .vector, .vector-1, .vector-2, .vector-3 {
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+  }
+
+  .about-me{
+  font-size: 40px;
+  }
+  .web-developer{
+    left: 400px;
+    width: 800px;
+    bottom: 800px;
+    font-size: 2.2rem;
+    line-height:  3.5rem;
+  }
+
+  .aaron{
+    left: 70px;
+    width: 130px;
+    height: 150px;
+
+  }
+  
+}
+

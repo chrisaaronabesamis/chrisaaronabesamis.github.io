@@ -1,0 +1,498 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overflow: hidden; 
+  height: 100vh;    
+  width: 100vw;     
+}
+
+.main-container {
+  width: 360px; 
+  height: 800px;  
+  margin: auto; 
+  background: #1f3069;
+  position: relative; 
+}
+
+.rectangle {
+  position: relative;
+  width: 100%;
+  height: 32px;
+  background: #d9d9d9;
+  z-index: 14;
+}
+
+.rectangle a {
+  display: block;
+  position: absolute;
+  width: 20px;
+  height: 25px;
+  overflow: hidden;
+  z-index: 10;
+}
+
+.house {
+  top: 4px;
+  left: 238px;
+}
+
+.telephone {
+  top: 4px;
+  left: 320px;
+}
+
+.info {
+  top: 5px;
+  left: 267px;
+}
+
+.gear {
+  top: 5px;
+  left: 296px;
+}
+
+.vector, .vector-1, .vector-2, .vector-3 {
+  width: 100%;
+  height: 100%;
+  background-size: 100% 100%;
+}
+
+.vector {
+  background: url(https://res.cloudinary.com/dfuglnaz2/image/upload/v1724735564/house_krkhum.svg) no-repeat center;
+}
+
+.vector-1 {
+  background: url(https://res.cloudinary.com/dfuglnaz2/image/upload/v1724735739/telephone_mmumod.svg) no-repeat center;
+}
+
+.vector-2 {
+  background: url(https://res.cloudinary.com/dfuglnaz2/image/upload/v1724751361/info-circle_r2urvu.svg) no-repeat center;
+}
+
+.vector-3 {
+  background: url(https://res.cloudinary.com/dfuglnaz2/image/upload/v1724755292/person-fill-gear_nqjalw.svg) no-repeat center;
+}
+.projects-skills {
+  display: block;
+  position: relative;
+  height: 39px;
+  margin: 14px 0 0 11px;
+  color: #ffffff;
+  font-family: Titillium Web, var(--default-font-family);
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 33.462px;
+  text-align: left;
+  text-overflow: initial;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.projects {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 164px;
+  height: 22px;
+  margin: 17px 0 0 87px;
+  color: #ffffff;
+  font-family: Titillium Web, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 8;
+}
+.flex-row-ebc {
+  position: relative;
+  width: 186px;
+  height: 227px;
+  margin: 17px 0 0 87px;
+  z-index: 14;
+}
+.rectangle-4 {
+  position: absolute;
+  width: 172px;
+  height: 227px;
+  top: 0;
+  left: 0;
+  background: #d9d9d9;
+  opacity: 0.5;
+  z-index: 9;
+}
+.regroup {
+  position: absolute;
+  width: 80px;
+  height: 227px;
+  top: 0;
+  left: 106px;
+  z-index: 2;
+}
+.envelope-fill {
+  position: absolute;
+  width: 37px;
+  height: 30px;
+  top: 182px;
+  left: 0;
+  z-index: 1;
+  overflow: hidden;
+}
+.telephone-fill {
+  position: absolute;
+  width: 37px;
+  height: 30px;
+  top: 182px;
+  left: 43px;
+  z-index: 2;
+  overflow: hidden;
+}
+.bank-ui {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 77px;
+  height: 16px;
+  top: 14px;
+  left: 41px;
+  color: #ffffff;
+  font-family: Titillium Web, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 16px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 11;
+}
+.recipe-generator {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 126px;
+  height: 46px;
+  top: 53px;
+  left: 17px;
+  color: #ffffff;
+  font-family: Titillium Web, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27.378px;
+  text-align: center;
+  z-index: 14;
+}
+.back-up-file {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 106px;
+  height: 34px;
+  top: 119px;
+  left: 29px;
+  color: #ffffff;
+  font-family: Titillium Web, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27.378px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 13;
+}
+.skills {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 130px;
+  height: 31px;
+  margin: 45px 0 0 100px;
+  color: #ffffff;
+  font-family: Titillium Web, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30.42px;
+  text-align: center;
+  text-overflow: initial;
+  white-space: nowrap;
+  z-index: 12;
+  overflow: hidden;
+}
+.flex-row-bf {
+  position: relative;
+  width: 172px;
+  height: 314px;
+  margin: 0 0 0 87px;
+  z-index: 24;
+}
+.rectangle-5 {
+  position: absolute;
+  width: 172px;
+  height: 314px;
+  top: 0;
+  left: 0;
+  background: #d9d9d9;
+  opacity: 0.5;
+  z-index: 10;
+}
+
+.py {
+  position: absolute;
+  width: 34px;
+  height: 40px;
+  top: 15px;
+  left: 12px;
+  background: url(https://res.cloudinary.com/dfuglnaz2/image/upload/v1724671923/kisspng-python-computer-icons-programming-language-executa-1713885634631_v7jkbt.webp) no-repeat center;
+  background-size: cover;
+  opacity: 0.7;
+  z-index: 15;
+  border-radius: 78px;
+}
+
+.python {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  width: 92px;
+  height: 27px;
+  top: 23px;
+  left: 50px;
+  color: #ffffff;
+  font-family: Titillium Web, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 16;
+}
+
+.java-script {
+  position: absolute;
+  width: 34px;
+  height: 40px;
+  top: 73px;
+  left: 12px;
+  background: url(https://res.cloudinary.com/dfuglnaz2/image/upload/v1724671787/JavaScript-logo_kzmdhs.png) no-repeat center;
+  background-size: cover;
+  opacity: 0.7;
+  z-index: 17;
+  border-radius: 78px;
+}
+
+.java-script-6 {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  width: 92px;
+  height: 27px;
+  top: 81px;
+  left: 50px;
+  color: #ffffff;
+  font-family: Titillium Web, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 18;
+}
+
+.sqll {
+  position: absolute;
+  width: 34px;
+  height: 40px;
+  top: 135px;
+  left: 12px;
+  background: url(https://res.cloudinary.com/dfuglnaz2/image/upload/v1724684037/2b353a39-0673-4abe-9b3d-431a4e5fc46b_600x315_h2gwfn.png) no-repeat center;
+  background-size: cover;
+  opacity: 0.7;
+  z-index: 19;
+  border-radius: 78px;
+}
+
+.sql{
+  display: flex;
+  align-items: center;
+  position: absolute;
+  width: 92px;
+  height: 27px;
+  top: 143px;
+  left: 50px;
+  color: #ffffff;
+  font-family: Titillium Web, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 20;
+}
+
+.html {
+  position: absolute;
+  width: 34px;
+  height: 40px;
+  top: 197px;
+  left: 12px;
+  background: url(https://res.cloudinary.com/dfuglnaz2/image/upload/v1724671828/html-1_pfwuns.svg) no-repeat center;
+  background-size: cover;
+  opacity: 0.7;
+  z-index: 21;
+  border-radius: 78px;
+}
+
+.html-7 {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  width: 92px;
+  height: 27px;
+  top: 205px;
+  left: 50px;
+  color: #ffffff;
+  font-family: Titillium Web, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 22;
+}
+
+.css {
+  position: absolute;
+  width: 34px;
+  height: 40px;
+  top: 259px;
+  left: 12px;
+  background: url(https://res.cloudinary.com/dfuglnaz2/image/upload/v1724672070/css-logo_lbmhjj.png) no-repeat center;
+  background-size: cover;
+  opacity: 0.7;
+  z-index: 23;
+  border-radius: 78px;
+}
+
+.css-8 {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  width: 92px;
+  height: 27px;
+  top: 267px;
+  left: 50px;
+  color: #ffffff;
+  font-family: Titillium Web, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 24;
+}
+
+@media screen and (min-width: 500px){
+  .main-container {
+    width: 1600px; 
+    margin: 0px;  
+  }
+
+  .rectangle{
+    width: 100%;
+    height: 50px;
+  }
+
+  .rectangle a {
+    width: 60px;
+    height: 40px;
+  }
+
+  .house{
+    top: 7px;
+    left: 1340px;
+  }
+
+  .telephone{
+    top: 7px;
+    left: 1470px;
+  }
+
+  .info{
+    top: 7px;
+    left: 1390px;
+  }
+
+  .gear{
+    top: 7px;
+    left: 1430px;
+  }
+
+  .vector, .vector-1, .vector-2, .vector-3 {
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+  }
+
+  .projects-skills {
+    font-size: 40px;
+  }
+  
+  .projects{
+    left: 400px;
+    font-size: 25px;
+
+  }
+
+  .skills {
+    left: 1000px;
+    bottom: 330px;
+    font-size: 25px;
+  }
+
+  .flex-row-ebc {
+    left: 400px;
+    height: 250px;
+    top: 23px;
+    justify-content: center;
+  }
+
+  .flex-row-bf {
+    left: 1000px;
+    bottom: 300px;
+    height: 300px;
+    justify-content: center;
+  }
+
+  .rectangle-4 {
+    height: 300px;
+    width: 190px;
+  }
+
+  .rectangle-5 {
+    height: 320;
+    width: 200px;
+  }
+
+  .recipe-generator, .back-up-file, .bank-ui {
+    font-size: 1.5rem;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .python, .html-7, .sql, .css-8, .java-script-6 {
+    font-size: 1.5rem;
+  }
+}

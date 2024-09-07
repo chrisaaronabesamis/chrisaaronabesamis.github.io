@@ -1,0 +1,256 @@
+:root {
+    --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei", "Source Han Sans CN", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+}
+
+.main-container {
+    width: 360px;
+    height: 800px;
+    margin: auto;
+    background: #1f3069;
+    position: relative;
+}
+
+.rectangle {
+    position: relative;
+    width: 100%;
+    height: 32px;
+    background: #d9d9d9;
+    z-index: 14;
+}
+
+.rectangle a {
+    display: block;
+    position: absolute;
+    width: 20px;
+    height: 25px;
+    overflow: hidden;
+    z-index: 10;
+}
+
+.house {
+    top: 4px;
+    left: 238px;
+}
+
+.telephone {
+    top: 4px;
+    left: 320px;
+}
+
+.info {
+    top: 5px;
+    left: 267px;
+}
+
+.gear {
+    top: 5px;
+    left: 296px;
+}
+
+.vector, .vector-1, .vector-2, .vector-3 {
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+}
+
+.vector {
+    background-image: url('https://res.cloudinary.com/dfuglnaz2/image/upload/v1724735564/house_krkhum.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.vector-1 {
+    background-image: url('https://res.cloudinary.com/dfuglnaz2/image/upload/v1724735739/telephone_mmumod.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.vector-2 {
+    background-image: url('https://res.cloudinary.com/dfuglnaz2/image/upload/v1724751361/info-circle_r2urvu.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.vector-3 {
+    background-image: url('https://res.cloudinary.com/dfuglnaz2/image/upload/v1724755292/person-fill-gear_nqjalw.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.contacts {
+    display: block;
+    position: relative;
+    height: 30px;
+    margin: 10px 0 0 4px;
+    color: #ffffff;
+    font-family: 'Titillium Web', var(--default-font-family);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.flex-row-cb, .flex-row-ca, .flex-row-c, .flex-row-f {
+    display: flex;
+    align-items: center;
+    margin: 16px 23px;
+}
+
+.flex-row-cb {
+    margin-top: 50px;
+}
+
+.fb, .ig, .gm, .git, .replit {
+    width: 35px;
+    height: 35px;
+    background-size: cover;
+    border-radius: 50%;
+    margin-right: 10px;
+    
+}
+
+.fb {
+    background-image: url('https://res.cloudinary.com/dfuglnaz2/image/upload/v1724661949/images_1_r6f7cy.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ig {
+    background-image: url('https://res.cloudinary.com/dfuglnaz2/image/upload/v1724661984/download_akviqh.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.gm {
+    background-image: url('https://res.cloudinary.com/dfuglnaz2/image/upload/v1724661985/images_2_atyear.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.git {
+    background-image: url('https://res.cloudinary.com/dfuglnaz2/image/upload/v1724661985/images_2_lpck4j.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.replit {
+    background-image: url('https://res.cloudinary.com/dfuglnaz2/image/upload/v1724661990/images_3_m9temj.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.aaron-abesamis, .urr-eyyron, .aaronabesamis-gmail-com, .chris-aaron-abesamis {
+    color: #ffffff;
+    font-family: 'Titillium Web', var(--default-font-family);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-decoration: none; 
+}
+
+.flex-row-cb a,
+.flex-row-ca a,
+.flex-row-c a,
+.flex-row-f a {
+    display: flex; 
+    align-items: center; 
+    text-decoration: none; 
+    color: #ffffff; 
+    font-family: 'Titillium Web', var(--default-font-family); 
+    font-size: 20px; 
+    font-weight: 600; 
+    line-height: 30px; 
+}
+
+.flex-row-cb a:hover,
+.flex-row-ca a:hover,
+.flex-row-c a:hover,
+.flex-row-f a:hover {
+    text-decoration: none; 
+    color: #ffffff; 
+}
+
+.code-humor-cory-house {
+    display: block;
+    position: relative;
+    width: 293px;
+    height: 56px;
+    margin: 95px auto 0;
+    color: #ffffff;
+    font-family: 'Titillium Web', var(--default-font-family);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+}
+
+
+@media screen and (min-width: 500px){
+    .main-container {
+      width: 1600px; 
+      margin: 0px;  
+    }
+  
+    .rectangle{
+      width: 100%;
+      height: 50px;
+    }
+  
+    .rectangle a {
+      width: 60px;
+      height: 40px;
+    }
+  
+    .house{
+      top: 7px;
+      left: 1340px;
+    }
+  
+    .telephone{
+      top: 7px;
+      left: 1470px;
+    }
+  
+    .info{
+      top: 7px;
+      left: 1390px;
+    }
+  
+    .gear{
+      top: 7px;
+      left: 1430px;
+    }
+
+    .vector, .vector-1, .vector-2, .vector-3 {
+        width: 100%;
+        height: 100%;
+        background-size: 100% 100%;
+    }
+
+    .contacts {
+        font-size: 40px;
+    }
+    .flex-row-c, .flex-row-ca, .flex-row-cb, .flex-row-f {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0auto 20px auto;
+        left: 1000px;
+    }
+    .code-humor-cory-house{
+        font-size: 25px;
+    }
+}

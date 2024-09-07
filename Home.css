@@ -1,0 +1,301 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overflow: hidden; 
+  height: 100vh;    
+  width: 100vw;     
+}
+
+.main-container {
+  width: 360px; 
+  height: 800px;  
+  margin: auto; 
+  background: #1f3069;
+  position: relative; 
+}
+
+.rectangle {
+  position: relative;
+  width: 100%;
+  height: 32px;
+  background: #d9d9d9;
+  z-index: 14;
+}
+
+.rectangle a {
+  display: block;
+  position: absolute;
+  width: 20px;
+  height: 25px;
+  overflow: hidden;
+  z-index: 10;
+}
+
+.house {
+  top: 4px;
+  left: 238px;
+}
+
+.telephone {
+  top: 4px;
+  left: 320px;
+}
+
+.info {
+  top: 5px;
+  left: 267px;
+}
+
+.gear {
+  top: 5px;
+  left: 296px;
+}
+
+.vector, .vector-1, .vector-2, .vector-3 {
+  width: 100%;
+  height: 100%;
+  background-size: 100% 100%;
+}
+
+.vector {
+  background: url(https://res.cloudinary.com/dfuglnaz2/image/upload/v1724735564/house_krkhum.svg) no-repeat center;
+}
+
+.vector-1 {
+  background: url(https://res.cloudinary.com/dfuglnaz2/image/upload/v1724735739/telephone_mmumod.svg) no-repeat center;
+}
+
+.vector-2 {
+  background: url(https://res.cloudinary.com/dfuglnaz2/image/upload/v1724751361/info-circle_r2urvu.svg) no-repeat center;
+}
+
+.vector-3 {
+  background: url(https://res.cloudinary.com/dfuglnaz2/image/upload/v1724755292/person-fill-gear_nqjalw.svg) no-repeat center;
+}
+
+.home {
+  display: block;
+  position: relative;
+  height: 30px;
+  margin: 11px 0 0 14px;
+  color: #ffffff;
+  font-family: Titillium Web, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.chris-aaron-abesamis {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 360px;
+  height: 23px;
+  margin: 121px 0 0 0;
+  color: #ffffff;
+  font-family: Titillium Web, var(--default-font-family);
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 22.815px;
+  text-align: center;
+  white-space: nowrap;
+  opacity: 0.6;
+  z-index: 11;
+}
+
+.web-developer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 263px;
+  height: 78px;
+  margin: 0 0 0 47px;
+  color: #ffffff;
+  font-family: Titillium Web, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 48.672px;
+  text-align: center;
+  z-index: 12;
+}
+
+.flex-row-bfc {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 99px;
+  height: 34px;
+  margin: 71px 0 0 207px;
+  z-index: 2;
+}
+
+.envelope-fill {
+  flex-shrink: 0;
+  position: relative;
+  width: 46px;
+  height: 34px;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.telephone-fill {
+  flex-shrink: 0;
+  position: relative;
+  width: 46px;
+  height: 34px;
+  z-index: 2;
+  overflow: hidden;
+}
+
+.flex-row-ad {
+  position: relative;
+  width: 250px;
+  height: 35px;
+  margin: 0 0 0 60px;
+  z-index: 17;
+}
+
+.fb {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  top: 0;
+  left: 0;
+  background: url(https://res.cloudinary.com/dfuglnaz2/image/upload/v1724661949/images_1_r6f7cy.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 14;
+  border-radius: 43.475px;
+}
+
+.ig {
+  position: absolute;
+  width: 40px;
+  height: 35px;
+  top: 0;
+  left: 55px;
+  background: url(https://res.cloudinary.com/dfuglnaz2/image/upload/v1724661984/download_akviqh.jpg)
+    no-repeat center;
+  background-size: cover;
+  z-index: 13;
+  border-radius: 19px;
+}
+
+.gm {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  top: 0;
+  left: 115px;
+  background: url(https://res.cloudinary.com/dfuglnaz2/image/upload/v1724661985/images_2_atyear.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 15;
+  border-radius: 19px;
+}
+
+.git {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  top: 0;
+  left: 168px;
+  background: url(https://res.cloudinary.com/dfuglnaz2/image/upload/v1724661985/images_2_lpck4j.jpg)
+    no-repeat center;
+  background-size: cover;
+  z-index: 16;
+  border-radius: 112.5px;
+}
+
+.replit {
+  position: absolute;
+  width: 40px;
+  height: 35px;
+  top: 0;
+  left: 210px;
+  background: url(https://res.cloudinary.com/dfuglnaz2/image/upload/v1724661990/images_3_m9temj.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 17;
+  border-radius: 37.5px;
+}
+
+@media screen and (min-width: 500px){
+  .main-container {
+    width: 1600px; 
+    margin: 0px;  
+  }
+
+  .rectangle{
+    width: 100%;
+    height: 50px;
+  }
+
+  .rectangle a {
+    width: 60px;
+    height: 40px;
+  }
+
+  .house{
+    top: 7px;
+    left: 1340px;
+  }
+
+  .telephone{
+    top: 7px;
+    left: 1470px;
+  }
+
+  .info{
+    top: 7px;
+    left: 1390px;
+  }
+
+  .gear{
+    top: 7px;
+    left: 1430px;
+  }
+
+  .vector, .vector-1, .vector-2, .vector-3 {
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+  }
+
+  .home{
+    font-size: 40px;
+  }
+
+  .chris-aaron-abesamis{
+    left: 650px;
+    font-size: 55px;
+  }
+
+  .web-developer{
+    left: 620px;
+    font-size: 60px;
+    top: 30px;
+  }
+
+  .flex-row-ad{
+    left: 600px;
+  }
+  
+} 
